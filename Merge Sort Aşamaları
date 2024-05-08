@@ -1,0 +1,17 @@
+Merge Sort Aşamaları:
+
+[16,21,11] -> [16,21] ve [11] olarak bölünür.
+
+[16,21] -> [16] ve [21] olarak bölünür.
+
+[11] (Tek elemanlı dizide herhangi bir değişiklik yapılmaz)
+
+[8,12,22] -> [8,12] ve [22] olarak bölünür.
+
+[16,21] ve [11] -> [11,16,21] olarak birleştirilir.
+
+[8,12] ve [22] -> [8,12,22] olarak birleştirilir.
+
+[11,16,21] ve [8,12,22] -> [8,11,12,16,21,22] olarak birleştirilir.
+
+Big-O gösterimi: O(nlogn)
